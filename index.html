@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问卷列表页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h2>问卷调查</h2>
+        <h3>我的问卷</h3>
+    </header>
+    <div class="create">
+            <a href="build.html">+新建问卷</a>
+    </div>
+    <table class="operate">
+        <thead>
+            <tr>
+                <td class="table-title">
+                    <p>标题</p>
+                </td>
+                <td class="table-time">
+                    <p>时间</p>
+                </td>
+                <td class="table-state">
+                    <p>状态</p>
+                </td>
+                <td class="table-oprate">
+                    <p>操作</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    <input type="checkbox" class="selectAll">
+                    <label for="">全选</label>
+                </td>
+                <td>
+                     <button class="del-all">删除</button>
+                </td>
+                <td>
+                    <a href="build.html">+新建问卷</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/require.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

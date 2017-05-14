@@ -1,0 +1,218 @@
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #ffa500;
+}
+header a{
+    font-size: 30px;
+}
+header h3{
+    margin-top: 5px;
+    font-size: 25px;
+}
+header a,header h3{
+    color: #fff;
+    margin-left: 40px;
+    vertical-align: middle;
+    float: left;
+}
+.paper-edit{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin: 40px auto;
+    
+}
+.paper-title h4{
+    text-align: center;
+    margin-top: 20px;
+}
+.paper-title{
+    width: 300px;
+    height: 40px;
+    margin: 20px auto;
+}
+.paper-title input{
+    width: 100%;
+    height: 100%;
+}
+.question{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    width: 700px;
+    height: 100px;
+    margin: 20px 0 0 -350px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.question-list{
+    position: relative;
+    top: 150px;
+    margin-top: 20px;
+}
+.question-list li{
+    position: relative;
+    width: 640px;
+    height: 140px;
+    margin: 40px auto;
+}
+.btn-wrap{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    right: 0;
+    bottom: 10px;
+}
+.question-list li button{
+    background-color: #fff;
+    width: 60px;
+    height: 30px;
+    float: right;
+}
+.question-footer{
+    width: 640px;
+}
+.question-type{
+    display: none;
+    width: 300px;
+    height: 30px;
+    margin: 5px auto;
+}
+.question-type li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 70px;
+}
+.question-list input[type="text"]{
+    width: 130px;
+}
+.question-list li label{
+    margin-left: 10px;
+}.o-name{
+    margin-left: 7px;
+}
+.question-list textarea{
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+.add-question{
+    width: 640px;
+    height: 50px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -320px;
+    background-color: lightslategray;
+    cursor: pointer;
+}
+.add-question p{
+    text-align: center;
+    line-height: 40px;
+}
+.calendar{
+    display: none;
+	width: 320px;
+	height: 410px;
+	position: absolute;
+	left: 0;
+    bottom: 60px;
+	border-radius: 5%;
+    background-color: rgba(222,222,222,1);
+}
+.cal-header{
+	position: relative;
+	top: 20px;
+	width: 300px;
+	height: 30px;
+	margin: 20px auto;
+	background-color: gray;
+	border: 1px solid black;
+	border-radius: 5%;
+}
+.calendar form input{
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin: 5px auto;
+	border-radius: 5%;
+}
+.change{
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -100px;
+	margin-top: -10px;
+}
+.month,.year{
+	float: left;
+	margin-left: 35px;
+}
+.year-back{
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 20px solid white;
+	margin-top: 5px;
+	margin-left: 10px;
+	float: left;
+}
+.year-front{
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 20px solid white;
+	margin-top: 5px;
+	margin-right: 10px;
+	float: right;
+}
+.weekday{
+	width: 280px;
+	height: 30px;
+	margin: 0 auto;
+}
+.weekday h4{
+	width: 25px;
+	float: left;
+	margin-left: 15px;
+}
+.weekday h4:first-child, .weekday h4:last-child{
+	color: red;
+}
+.date{
+	width: 280px;
+	height: 360px;
+}
+.date .date-col{
+	width: 280px;
+	height: 25px;
+	margin-left: 25px;
+}
+.date .date-col p{
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin: 5px 0 0 12px;
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+}
+.paper-footer{
+    width: 700px;
+    height: 50px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -350px;
+    bottom: 30px;
+}
+.paper-operate button{
+    margin-right: 20px;
+    float: right;
+}
